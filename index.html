@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Paxaron — Telegram profile">
+  <meta name="theme-color" content="#05070a">
+  <title>Paxaron | Telegram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-label="Paxaron Telegram">
+      <div class="scanline"></div>
+      <div class="badge">OSINT // PROFILE</div>
+      <div class="avatar" aria-hidden="true">P</div>
+      <h1>PAXARON</h1>
+      <p class="handle">@paxaron</p>
+      <p class="description">Связаться со мной в Telegram</p>
+
+      <a class="telegram-btn"
+         href="https://t.me/paxaron"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Открыть Telegram профиль @paxaron">
+        <span>ОТКРЫТЬ TELEGRAM</span>
+        <span class="arrow">↗</span>
+      </a>
+
+      <div class="status">
+        <span class="dot"></span>
+        <span>SECURE CONNECTION</span>
+      </div>
+      <footer>© <span id="year"></span> PAXARON</footer>
+    </section>
+  </main>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
